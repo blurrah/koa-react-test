@@ -1,0 +1,18 @@
+:root {
+    --headerFontSize: 2rem;
+    --fontSize: 1rem;
+}
+
+.header {
+    &--heading {
+        font-size: var(--headerFontSize);
+    }
+
+    &--text {
+        font-size: var(--fontSize);
+
+        &__bold {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "koa-react-skeleton",
+  "version": "0.1.0",
+  "description": "Koa React isomorphic skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start-server": "node --harmony server.js 3000",
+    "start-dev": "webpack-dev-server --content-base dist/ --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "keywords": [
+    "Koa",
+    "React",
+    "Skeleton",
+    "Isomorphic"
+  ],
+  "author": "Boris Besemer",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.12",
+    "babel-core": "^5.8.14",
+    "babel-loader": "^5.3.2",
+    "cssnext": "^1.8.2",
+    "koa": "^0.21.0",
+    "koa-static": "^1.4.9",
+    "postcss-loader": "^0.5.1",
+    "react-hot-loader": "^1.2.8",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
+}
